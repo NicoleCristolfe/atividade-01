@@ -1,0 +1,52 @@
+.filme-1 {
+    max-width: 80px;
+    border: 3px solid;
+    border-color: hsl(0, 100%, 50%);
+    border-style: dotted;
+    border-radius: 1px;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic; 
+}
+
+
+.filme-2{
+    max-width: 80px;
+    border: 3px solid;
+    border-color: hsl(0, 100%, 50%);
+    border-style: dotted;
+    border-radius: 1px;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+.filme-3{
+    max-width: 80px;
+    border: 3px solid;
+    border-color: hsl(0, 100%, 50%);
+    border-style: dotted;
+    border-radius: 1px;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+.filme-4{
+    max-width: 80px;
+    border: 3px solid;
+    border-color: hsl(0, 100%, 50%);
+    border-style: dotted;
+    border-radius: 1px;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.filmes{
+display: flex;
+flex-direction: row;
+padding: 20px;
+
+}
