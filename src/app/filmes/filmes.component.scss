@@ -1,52 +1,65 @@
+.filmes {
+    display: grid;
+    grid-gap: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
 .filme-1 {
-    max-width: 80px;
-    border: 3px solid;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: small;
+    flex-direction: column;
+    border: 5px solid;
     border-color: hsl(0, 100%, 50%);
     border-style: dotted;
-    border-radius: 1px;
-    padding: 50px;
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic; 
-}
-
-
-.filme-2{
-    max-width: 80px;
-    border: 3px solid;
-    border-color: hsl(0, 100%, 50%);
-    border-style: dotted;
-    border-radius: 1px;
-    padding: 50px;
-    font-family:'Times New Roman', Times, serif;
+    padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
 
-.filme-3{
-    max-width: 80px;
-    border: 3px solid;
+.filme-2 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size:small;
+    flex-direction: column;
+    border: 5px solid;
     border-color: hsl(0, 100%, 50%);
     border-style: dotted;
-    border-radius: 1px;
-    padding: 50px;
-    font-family:'Times New Roman', Times, serif;
+    padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.filme-3 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size:small;
+    flex-direction: column;
+    border: 5px solid;
+    border-color: hsl(0, 100%, 50%);
+    border-style: dotted;
+    padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
-
-.filme-4{
-    max-width: 80px;
-    border: 3px solid;
+.filme-4 {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size:small;
+    flex-direction: column;
+    border: 5px solid;
     border-color: hsl(0, 100%, 50%);
     border-style: dotted;
-    border-radius: 1px;
-    padding: 50px;
-    font-family:'Times New Roman', Times, serif;
+    padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-}
-.filmes{
-display: flex;
-flex-direction: row;
-padding: 20px;
-
 }
