@@ -25,17 +25,16 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [ 
+            "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
-                
-              },{
+              },
+              {
                 "glob": "**/*",
                 "input": "src/assets/",
                 "output": "/assets/"
               }
-              
             ],
             "styles": [
               "src/styles.scss"
@@ -46,7 +45,6 @@
             "ssr": {
               "entry": "server.ts"
             }
-            
           },
           "configurations": {
             "production": {
@@ -100,13 +98,10 @@
               {
                 "glob": "**/*",
                 "input": "public"
-                
               }
-            
             ],
             "styles": [
               "src/styles.scss"
-              
             ],
             "scripts": []
           }

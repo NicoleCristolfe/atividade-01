@@ -12,10 +12,10 @@ import { FilmesComponent } from './filmes/filmes.component';
 export class AppComponent {
   title = 'atividade-1';
 }
-@NgModule ({
+@NgModule({
   declarations: [],
-  
-  imports:[AppComponent, FilmesComponent],
-  })
-  
-  export class AppModule {}
+
+  imports: [AppComponent, FilmesComponent],
+})
+
+export class AppModule { }
