@@ -1,21 +1,31 @@
-import { Component, NgModule } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FilmesComponent } from './filmes/filmes.component';
-
+import { FormsModule } from '@angular/forms';
+import { NgFor, NgIf } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FilmesComponent],
+  imports: [RouterOutlet, FormsModule, NgFor,NgIf],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'atividade-1';
+  title = 'atividade-2';
+  value = '';
+  recebe: any = [];
+
+  removeItem(item: string): void {
+    const remove = this.recebe.indexOf(item);
+    if (remove > -1) {
+      this.recebe.splice(remove, 1);
+    }
+  }
+
+  addItem(): void {
+    if (!this.value) {
+      return;
+    }
+    this.recebe.push(this.value);
+    this.value = '';
+  }
 }
-@NgModule({
-  declarations: [],
-
-  imports: [AppComponent, FilmesComponent],
-})
-
-export class AppModule { }
