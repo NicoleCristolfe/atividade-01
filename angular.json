@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "atividade-1": {
+    "atividade-2": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/atividade-1",
+            "outputPath": "dist/atividade-2",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,14 +29,10 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              },
-              {
-                "glob": "**/*",
-                "input": "src/assets/",
-                "output": "/assets/"
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -74,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "atividade-1:build:production"
+              "buildTarget": "atividade-2:build:production"
             },
             "development": {
-              "buildTarget": "atividade-1:build:development"
+              "buildTarget": "atividade-2:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,6 +97,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.scss"
             ],
             "scripts": []
